@@ -1,0 +1,133 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html,
+.page__content{
+	height: 100%;
+	overflow: scroll;
+}
+/*above statemet used to make div 100% height, a
+ll parents should be 100% height*/
+
+.background{
+	background: url(texture-1496898_1920.jpg);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*this is fixed background*/
+}
+.background__two{
+	background: url(wood-1288846_1920.jpg);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 100%;
+	left: 0;
+	/*this is fixed background*/
+}
+
+/*Instead of Images*/
+.image__box{
+	width: 200px;
+	height: 300px;
+	border: 4px solid grey;
+	opacity: 0.7;
+}
+	.get_one{
+		background-color: red;
+	}
+	.get_two{
+		background-color: green;
+	}
+	.get_tree{
+		background-color: lavender;
+	}
+	.get_four{
+		background-color: blue;
+	}
+/*////////////////////////////////*/
+
+/*navigation points*/
+/*position of NAV is "fixed" not "absolute"
+since it should tstay in same position all the time*/
+.nav_points{
+	position: fixed; 
+	top: 40%;
+	right: 16px;
+	z-index: 9;
+}
+	.nav__bullet{
+		display: block;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background-color: #5de1a4;
+		margin-top: 15px;
+	}
+/*///////////////////////////////////*/
+
+
+.move__it__box{
+	display: flex;
+	justify-content: space-between;
+	padding: 20% 10%;
+	height: 100%;
+}
+	.article{
+		margin: 0 5%;
+	}
+.parallax__box__one{
+	background-color: lavender;
+	opacity: 0.7;
+}
+.parallax__box__two{
+	background-color: burlywood;
+    opacity: 0.7;
+}
+.parallax__box__three{
+	background-color: darkcyan;
+    opacity: 0.7;
+}
+.parallax__box__four{
+	background-color: crimson;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
